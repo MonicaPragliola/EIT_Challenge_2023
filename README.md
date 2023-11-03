@@ -8,21 +8,22 @@ The codes solve the EIT inverse problem by imposing a sparsity prior on the jump
 
 In line with the Kuopio Tomography Challenge 2023 (KTC2023) guidelines, for which the codes have been designed, the output is the segmentation via the Otsu's method of the reconstructed conductivities.
 
-The repository contains:
-- 'TrainingData' folder, containing the data (provided by the KTC2023 committee)
-- 'GroundTruths' folder, containing the reference segmentations (provided by the KTC2023 committee)
-- 'Output' folder, in which the segmented conductivities are saved
-- 'MiscCodes' folder, containing a miscellaneous of auxiliary codes, ranging from the segmentation algorithm to the scoring function evaluating the results (provided by the KTC2023 committee)
-- auxiliary files EITFEM.m, sigmaplotter.m, Mesh_dense.mat, Mesh_sparse.mat (provided by the KTC2023 committee)
-- auxiliary files GetEdges.m, GetIncrementMatrix.m, CGLS_update_x0
-- the Matlab function IAS_for_EIT.m
-- the Matlab script main.m, that runs IAS_for_EIT.m on the four target image on different level of difficulties, i.e. for different acquisition set-up
-
-The user can simply run the main script main.m.
-
-
-
+The main code main.m runs the function IAS_for_EIT.m on the four training data provided by the KTC2023 committee for different acquisition set-up. The quality of the segmented output conductivities is assessed by means of a scoring function designed by the KTC2023 committee.
 
 
 
 [1] Calvetti D., Pragliola M., Somersalo E. (2020) Sparsity promoting hybrid solvers for hierarchical Bayesian inverse problems, SIAM Journal on Scientific Computing 42(6).
+
+
+Performance of the proposed algorithm on a target object for different difficulty levels (DL), i.e. for different and decreasing numbers of injection patterns.
+
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/0ca6c35f-d275-450a-940a-a5a52502e02b" width="220">
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/8af11afb-7af8-496b-93f0-c25e86171fe9" width="220">
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/1828433e-60d4-48a3-874b-96106a64081a" width="220">
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/b5028368-a7b3-4b7b-9173-60de37deb419" width="220">
+
+
+
+
+
+
