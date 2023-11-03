@@ -17,10 +17,10 @@ The main code main.m runs the function IAS_for_EIT.m on the four training data p
 
 Performance of the proposed algorithm on a target object for different difficulty levels (DL), i.e. for different and decreasing numbers of injection patterns.
 
-<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/0ca6c35f-d275-450a-940a-a5a52502e02b" width="220">
-<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/8af11afb-7af8-496b-93f0-c25e86171fe9" width="220">
-<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/1828433e-60d4-48a3-874b-96106a64081a" width="220">
-<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/b5028368-a7b3-4b7b-9173-60de37deb419" width="220">
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/0ca6c35f-d275-450a-940a-a5a52502e02b" width="200">
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/8af11afb-7af8-496b-93f0-c25e86171fe9" width="200">
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/1828433e-60d4-48a3-874b-96106a64081a" width="200">
+<img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/b5028368-a7b3-4b7b-9173-60de37deb419" width="200">
 
 
 
