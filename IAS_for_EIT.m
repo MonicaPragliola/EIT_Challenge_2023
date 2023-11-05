@@ -22,13 +22,8 @@ for ii=1:76
 end
 vincl = vincl(:);
 
-%?? Mesh_sparse vs Mesh_dense
 load('Mesh_sparse.mat')
-%load('Mesh_dense.mat')
 
-%??
-% noise_std1 = 0.05; %standard deviation for first noise component (relative to each voltage measurement)
-% noise_std2 = 0.01; %standard deviation for second noise component (relative to the largest voltage measurement)
 
 
 files=dir(fullfile(inputFolder,'*.mat')); %one of these is a reference data, the others are from targets with inclusions
