@@ -5,7 +5,7 @@ close all; clear all; %clc;
 
 path(path,'MiscCodes/')
 % main('TrainingData', 'Output', 7);
-main_to_send('TrainingData', 'Output', 1);
+IAS_for_EIT('TrainingData', 'Output', 1);
 
 score = 0;
 for ii = 1:4
