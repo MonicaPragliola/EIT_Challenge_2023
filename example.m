@@ -1,11 +1,10 @@
-%This script runs the main.m function for input file 'TrainingData', and
+%This script runs the main_IAS.m function for input file 'TrainingData', and
 %then assesses all the output reconstructions using the given scoring
 %algorithm.
 close all; clear all; %clc;
 
 path(path,'MiscCodes/')
-% main('TrainingData', 'Output', 7);
-IAS_for_EIT('TrainingData', 'Output', 1);
+main_IAS('TrainingData', 'Output', 1);
 
 score = 0;
 for ii = 1:4
