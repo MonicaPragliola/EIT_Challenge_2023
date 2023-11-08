@@ -1,10 +1,9 @@
 # EIT_Challenge_2023
 
-Authors: Daniela Calvetti (dxc57@case.edu), Case Western Reserve University, Cleveland, OH, US 
-
-         Monica Pragliola (monica.pragliola@unina.it), University of Naples Federico II, Naples, IT
-         
-         Erkki Somersalo (ejs49@case.edu), Case Western Reserve University, Cleveland, OH, US
+Authors: 
+Daniela Calvetti (dxc57@case.edu), Case Western Reserve University, Cleveland, OH, US <br> 
+Monica Pragliola (monica.pragliola@unina.it), University of Naples Federico II, Naples, IT<br> 
+Erkki Somersalo (ejs49@case.edu), Case Western Reserve University, Cleveland, OH, US
 
 The codes solve the EIT inverse problem by imposing a sparsity prior on the jumps of the target object. More specifically, the jumps are assumed to follow a conditionally Gaussian distribution with unknown variances, for which a generalized gamma prior is adopted. The resulting hypermodel is minimized by means of the hybrid Iterative Alternating Sequential (IAS) algorithm, originally proposed for linear problems [1] and here extended to the non-linear case.
 
