@@ -1,4 +1,4 @@
-function IAS_for_EIT(inputFolder,outputFolder,categoryNbr)
+function main_IAS(inputFolder,outputFolder,categoryNbr)
 
 
 SHOW = 0;
