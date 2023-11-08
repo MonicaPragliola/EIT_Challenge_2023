@@ -9,7 +9,7 @@ The codes solve the EIT inverse problem by imposing a sparsity prior on the jump
 
 In line with the Kuopio Tomography Challenge 2023 (KTC2023) guidelines, for which the codes have been designed, the output is the segmentation via the Otsu's method of the reconstructed conductivities.
 
-The main code main_IAS.m takes as input the input folder containing the data, the output folder and the difficulty level (DL), that encodes the downsampling factor in the set of injection patterns. In example.m you can find a call of main_IAS.m for the training data provided by the KTC2023 organizers. The auxiliary functions and files have to be stored in the same folder as main_IAS.m.
+The main code main_IAS.m takes as input the input folder containing the data, the output folder and the difficulty level (DL), that encodes the downsampling factor in the set of injection patterns. In example.m you can find a call to main_IAS.m run on the training data provided by the KTC2023 organizers. The auxiliary functions and the mesh have to be stored in the same folder as main_IAS.m.
 
 
 
