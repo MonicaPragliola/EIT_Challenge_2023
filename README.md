@@ -8,11 +8,9 @@ The codes solve the EIT inverse problem by imposing a sparsity prior on the jump
 
 In line with the Kuopio Tomography Challenge 2023 (KTC2023) guidelines, for which the codes have been designed, the output is the segmentation via the Otsu's method of the reconstructed conductivities.
 
-The main code main.m runs the function IAS_for_EIT.m on the four training data provided by the KTC2023 committee for different acquisition set-up. The quality of the segmented output conductivities is assessed by means of a scoring function designed by the KTC2023 committee.
+The main code main_IAS.m takes as input the input folder, the output folder and the difficulty levels (DL), that encodes the downsampling factor in the set of injection patterns. In example.m you can find a call of main_IAS.m for the Training data provided by the KTC2023 organizers. The auxiliary functions and files have to be stored in the same folder as main_IAS.m.
 
 
-
-[1] Calvetti D., Pragliola M., Somersalo E. (2020) Sparsity promoting hybrid solvers for hierarchical Bayesian inverse problems, SIAM Journal on Scientific Computing 42(6).
 
 
 Performance of the proposed algorithm on a target object for different difficulty levels (DL), i.e. for different and decreasing numbers of injection patterns.
@@ -24,6 +22,8 @@ Performance of the proposed algorithm on a target object for different difficult
 
 
 
+
+[1] Calvetti D., Pragliola M., Somersalo E. (2020) Sparsity promoting hybrid solvers for hierarchical Bayesian inverse problems, SIAM Journal on Scientific Computing 42(6).
 
 
 
