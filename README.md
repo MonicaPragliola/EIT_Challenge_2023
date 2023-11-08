@@ -1,6 +1,6 @@
 # EIT_Challenge_2023
 
-Authors: 
+Authors: <br> 
 Daniela Calvetti (dxc57@case.edu), Case Western Reserve University, Cleveland, OH, US <br> 
 Monica Pragliola (monica.pragliola@unina.it), University of Naples Federico II, Naples, IT<br> 
 Erkki Somersalo (ejs49@case.edu), Case Western Reserve University, Cleveland, OH, US
