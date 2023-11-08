@@ -13,7 +13,7 @@ The main code main_IAS.m takes as input the input folder, the output folder and 
 
 
 
-Performance of the proposed algorithm on a target object for different difficulty levels (DL), i.e. for different and decreasing numbers of injection patterns.
+Performance of the proposed algorithm on a target object for different DL.
 
 <img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/0ca6c35f-d275-450a-940a-a5a52502e02b" width="200">
 <img src="https://github.com/MonicaPragliola/EIT_Challenge_2023/assets/122533069/8af11afb-7af8-496b-93f0-c25e86171fe9" width="200">
